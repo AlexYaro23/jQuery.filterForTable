@@ -5,8 +5,6 @@ If cell has formated number values, plugin will transform them to simple number 
 will compare with the filter value. So if to enter in filter something like 1500, 
 script will show rows with values like 1 500, 1500, 1,500, $1 500, %1 500 and so on.
 
-Demoes: 
-
 ## Usage
 
 Include the dependencies:
