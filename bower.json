@@ -13,7 +13,7 @@
         }
     ],
     "license": "MIT",
-    "homepage": "",
+    "homepage": "https://github.com/AlexYaroma/jQuery.filterForTable",
     "dependencies": {
         "jquery": ">=1.4"
     },

@@ -1,0 +1,24 @@
+{
+  "name": "filterfortable",
+  "version": "1.0.0",
+  "description": "jQuery plugin to filter HTML tables ",
+  "main": "filterForTable.js",
+  "directories": {
+    "example": "examples"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AlexYaroma/jQuery.filterForTable.git"
+  },
+  "keywords": [
+    "table",
+    "filter",
+    "search"
+  ],
+  "author": "Alex Yaromenko <alex.yaromenko@gmail.com> (https://github.com/AlexYaroma)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlexYaroma/jQuery.filterForTable/issues"
+  },
+  "homepage": "https://github.com/AlexYaroma/jQuery.filterForTable"
+}
