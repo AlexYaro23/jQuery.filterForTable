@@ -1,0 +1,31 @@
+body {
+	text-align: center;
+}
+
+.content {
+	width: 700px;
+	margin: 10px auto;
+}
+
+.content div {
+	height: 20px;
+}
+
+.content input {
+	float: right;
+}
+
+table {
+	margin-top: 10px;
+	width: 100%;
+	border: 1px solid black;
+}
+
+table th, table td {
+	border: 1px solid black;
+	padding: 5px 7px;
+}
+
+.red {
+	background-color: red; 
+}

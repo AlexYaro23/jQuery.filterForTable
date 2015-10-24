@@ -1,0 +1,25 @@
+{
+    "name": "filterForTable",
+    "description": "Searching and filtering data in HTML tables.",
+    "keywords": [
+        "table",
+        "search",
+        "filter"
+    ],
+    "authors": [
+        {
+            "name": "Alex Ya",
+            "homepage": "https://github.com/AlexYaroma"
+        }
+    ],
+    "license": "MIT",
+    "homepage": "",
+    "dependencies": {
+        "jquery": ">=1.4"
+    },
+    "main": "filterForTable.js",
+    "ignore": [
+        "examples/",
+        "**/.*"
+    ]
+}

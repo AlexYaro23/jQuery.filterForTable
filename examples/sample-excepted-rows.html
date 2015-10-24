@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>jQuery.filterForTable Sample</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>jQuery.filterForTable Sample</h1>
+    
+    <p><a href="index.html">&larr; Back to Main Page</a></p>
+    
+    <p>Escepted Rows Sample</p>
+    
+    <h2>AC MILAN 2015/2016</h2>
+    
+    <p>Excepting highlighted rows</p>
+
+    <code>
+        Code: <br />
+        $('table').filterForTable({exceptClass: 'red'});
+    </code>
+
+    <div class="content">
+        <div class="row">
+            <input id="searchInput" name="search" placeholder="Searching..."/>
+        </div>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Player</th>
+                    <th>Position</th>
+                    <th>Age</th>
+                    <th>Yearly wages(€)</th>
+                    <th>Contract running until</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="red">
+                    <td>Carlos Bacca</td>
+                    <td>Forward</td>
+                    <td>28</td>
+                    <td>3,500,000</td>
+                    <td>2019</td>
+                </tr>
+                <tr>
+                    <td>Riccardo Montolivo</td>
+                    <td>Midfielder</td>
+                    <td>30</td>
+                    <td>3 500 000</td>
+                    <td>2016</td>
+                </tr>
+                <tr class="red">
+                    <td>Nigel De Jong</td>
+                    <td>Midfielder</td>
+                    <td>30</td>
+                    <td>3,000,000.00</td>
+                    <td>2018</td>
+                </tr>
+                <tr>
+                    <td>Luiz Adriano</td>
+                    <td>Forward</td>
+                    <td>28</td>
+                    <td>$3 000 000</td>
+                    <td>2020</td>
+                </tr>
+                <tr>
+                    <td>Alex</td>
+                    <td>Defender</td>
+                    <td>33</td>
+                    <td>2,500,000</td>
+                    <td>2016</td>
+                </tr>
+                <tr>
+                    <td>Alessio Cerci</td>
+                    <td>Forward</td>
+                    <td>28</td>
+                    <td>2,500,000</td>
+                    <td>2016</td>
+                </tr>
+                <tr class="red">
+                    <td>Keisuke Honda</td>
+                    <td>Forward</td>
+                    <td>29</td>
+                    <td>2,500,000</td>
+                    <td>2016</td>
+                </tr>
+                <tr>
+                    <td>Diego Lopez</td>
+                    <td>Goalkeeper</td>
+                    <td>33</td>
+                    <td>2 500 000</td>
+                    <td>2018</td>
+                </tr>
+                <tr>
+                    <td>Jeremy Menez</td>
+                    <td>Forward</td>
+                    <td>28</td>
+                    <td>2400000</td>
+                    <td>2017</td>
+                </tr>
+                <tr>
+                    <td>Ignazio Abate</td>
+                    <td>Defender</td>
+                    <td>28</td>
+                    <td>2300000</td>
+                    <td>2019</td>
+                </tr>
+                <tr>
+                    <td>Mario Balotelli</td>
+                    <td>Forward</td>
+                    <td>25</td>
+                    <td>2,250,000</td>
+                    <td>2016</td>
+                </tr>
+                <tr>
+                    <td>Andrea Bertolacci</td>
+                    <td>Midfielder</td>
+                    <td>24</td>
+                    <td>2 000 000</td>
+                    <td>2019</td>
+                </tr>
+                <tr>
+                    <td>Alessio Romagnoli</td>
+                    <td>Defender</td>
+                    <td>20</td>
+                    <td>2,000,000</td>
+                    <td>2020</td>
+                </tr>
+                <tr>
+                    <td>Antonio Nocerino</td>
+                    <td>Midfielder</td>
+                    <td>30</td>
+                    <td>1,900,000</td>
+                    <td>2016</td>
+                </tr>
+                <tr>
+                    <td>Cristian Zapata</td>
+                    <td>Midfielder</td>
+                    <td>28</td>
+                    <td>1,600,000</td>
+                    <td>2016</td>
+                </tr>
+                <tr>
+                    <td>Mattia De Sciglio</td>
+                    <td>Defender</td>
+                    <td>22</td>
+                    <td>1,500,000</td>
+                    <td>2018</td>
+                </tr>
+                <tr>
+                    <td>Juraj Kucka</td>
+                    <td>Midfielder</td>
+                    <td>28</td>
+                    <td>1,500,000</td>
+                    <td>2019</td>
+                </tr>
+                <tr class="red">
+                    <td>Philippe Mexes</td>
+                    <td>Defender</td>
+                    <td>33</td>
+                    <td>1,500,000</td>
+                    <td>2016</td>
+                </tr>
+                <tr>
+                    <td>Andrea Poli</td>
+                    <td>Midfielder</td>
+                    <td>25</td>
+                    <td>1,500,000</td>
+                    <td>2018</td>
+                </tr>
+                <tr>
+                    <td>Luca Antonelli</td>
+                    <td>Defender</td>
+                    <td>28</td>
+                    <td>1,300,000</td>
+                    <td>2018</td>
+                </tr>
+                <tr>
+                    <td>Christian Abbiati</td>
+                    <td>Goalkeeper</td>
+                    <td>38</td>
+                    <td>1,000,000</td>
+                    <td>2016</td>
+                </tr>
+                <tr class="red">
+                    <td>Giacomo Bonaventura</td>
+                    <td>Midfielder</td>
+                    <td>25</td>
+                    <td>1,000,000</td>
+                    <td>2019</td>
+                </tr>
+                <tr>
+                    <td>Suso</td>
+                    <td>Forward</td>
+                    <td>21</td>
+                    <td>1,000,000</td>
+                    <td>2019</td>
+                </tr>
+                <tr>
+                    <td>Rodrigo Ely</td>
+                    <td>Defender</td>
+                    <td>21</td>
+                    <td>800,000</td>
+                    <td>2019</td>
+                </tr>
+                <tr>
+                    <td>Jose Mauri</td>
+                    <td>Midfielder</td>
+                    <td>19</td>
+                    <td>800,000</td>
+                    <td>2019</td>
+                </tr>
+                <tr class="red">
+                    <td>M'Baye Niang</td>
+                    <td>Forward</td>
+                    <td>19</td>
+                    <td>800,000</td>
+                    <td>2019</td>
+                </tr>
+                <tr>
+                    <td>Davide Calabria</td>
+                    <td>Defennder</td>
+                    <td>19</td>
+                    <td>120,000</td>
+                    <td>2020</td>
+                </tr>
+                <tr>
+                    <td>Gianluigi Donnarumma</td>
+                    <td>Goalkeeper</td>
+                    <td>16</td>
+                    <td>90,000</td>
+                    <td>2018</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="../filterForTable.js"></script>
+    <script>
+        $('table').filterForTable({exceptClass: 'red'});
+    </script>
+</body>
+</html>
