@@ -9,12 +9,12 @@ script will show rows with values like 1 500, 1500, 1,500, $1 500, %1 500 and so
 
 Include the dependencies:
 
-&lt;script src="/path/to/jquery.js"&gt;&lt;/script&gt;
-&lt;script src="/path/to/filterForTable.js"&gt;&lt;/script&gt;
-&lt;script&gt;
-$('table').filterForTable(); // basic usage
-
-$('table').filterForTable({searchSelector: '.search-input'}); //selecting search input
+&lt;script src="/path/to/jquery.js"&gt;&lt;/script&gt; <br />
+&lt;script src="/path/to/filterForTable.js"&gt;&lt;/script&gt; <br />
+&lt;script&gt; <br />
+$('table').filterForTable(); // basic usage <br />
+<br />
+$('table').filterForTable({searchSelector: '.search-input'}); //selecting search input <br />
 
 &lt;/script&gt;
 
